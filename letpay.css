@@ -168,6 +168,7 @@ display: inline-block;
     padding-top:10px;
     padding-bottom:10px;
     transition: background 0.2s;
+    font-size:25px;
 }
 .btn-primary{
     background:#00b4db;
@@ -250,7 +251,9 @@ display: inline-block;
   .hero-container{
     margin:20px;
     display:flex;
-    justify-content:left;
+      width:100%;
+      max-width:100vh;
+    justify-content:flex-start;
     align-items:center;
 }
 
