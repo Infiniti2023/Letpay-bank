@@ -1,0 +1,258 @@
+*{
+    padding:0;
+    margin:0;
+    border-sizing:border-box;
+}
+
+
+body {
+    background:#ffff;
+    font-family: "Montserrat", sans-serif;
+    text-align:left;
+    color:#ffffff;
+    letter-spacing:-0.2px;
+    min-height:100vh;
+    max-width:100%;
+}
+
+/* Tag Selector */
+ul{
+   list-style:none;
+   
+   
+}
+
+a,.security {
+    text-decoration:none;
+    padding:20px;
+}
+
+a{
+    display: inline-block;
+    color:#ffff;
+}
+p{
+    font-size:16px;
+    font-weight:400;
+    margin:20px;
+    color:#494949;
+}
+
+h1{
+    font-size:36px;
+    font-weight:900;
+    margin-left:20px;
+    color:#000000;
+}
+
+h2{
+    font-size:30px;
+    font-weight:600;
+    margin:20px;
+    color:#000000;
+}
+h3{
+    font-size:20px;
+    font-weight:600;
+    margin:20px;
+    color:#00b4db;
+}
+
+span{
+    color:#00b4db;
+}
+
+img{
+    width:30px;
+    border-radius:50%;
+    background: #00b4db;
+}
+/* class selector */
+.header{
+    background:#ffffff;
+    padding:5px;
+    box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.3);
+    margin-left:0;
+    margin-bottom:50px;
+    position: sticky;
+    top:0px;
+    width:100%;
+}
+
+.letpay{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:left;
+}
+.protect{
+    background:#0369A1;
+    padding-top:20px;
+    padding-bottom:10px;
+    color:#fff;
+    
+}
+.goat{
+    background:#1F2937;
+    padding-bottom:20px;
+    padding-top:20px;
+}
+.foot{
+    color:#fffff;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    }
+
+.let{
+    color:#03045e;
+}
+
+.sub{
+    background:#E3F2FD;
+    padding-bottom:20px;
+    padding-top:20px;
+}
+
+.standard{
+    background:#ffff;
+    padding-bottom:20px;
+    padding-top:20px;
+    margin:20px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3);
+    border-radius:10px;
+}
+
+.pro{
+    color:#ffffff;
+    text-align:center;
+    
+}
+
+.hero{
+  width: 340px;
+  max-width: 680px; 
+  border-radius:20px;
+}
+.hero-container{
+    margin:20px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.find{
+font-size:26px;
+font-weight:600;
+text-align: center;
+   background:#E3F2FD;
+   margin-top:50px;
+   padding-top:20px;
+}
+.hero-title{
+    color:#00b4db;
+    font-size:16px;
+    font-weight:400;
+    
+}
+.btn{
+cursor:pointer;
+display: inline-block;
+    padding-right:100px;
+    padding-left:100px;
+    margin-left:20px;
+    margin-bottom:10px;
+    border:2px solid #00b4db ;
+    border-radius:50px;
+    color:#ffff;
+    padding-top:10px;
+    padding-bottom:10px;
+    transition: background 0.2s;
+}
+.btn-primary{
+    background:#00b4db;
+    transition: background 0.2s;
+}
+.btn-secondary{
+    padding-right:113px;
+    color:#0369A1;
+    margin-bottom:0;
+    transition: background 0.2s;
+}
+
+.btn-tetiary,.prod{
+    color:#0369A1;
+    padding-right:30px;
+    padding-left:30px;
+    cursor:pointer;
+    transition: background 0.2s;
+}
+
+.btn-comp{
+    display: inline-block;
+    padding-right:40px;
+    padding-left:40px;
+    background:#ffff;
+    margin:20px;
+    border-radius:50px;
+    color:#0369A1;
+    padding-top:10px;
+    padding-bottom:10px;
+    cursor:pointer;
+    transition: 0.2s;
+    
+}
+
+.third{
+    color:#0369A1;
+}
+
+
+/* Pseudo selector*/
+.btn-primary:hover,active{
+    background:#0369A1;
+    transition: background 0.2s;
+}
+
+.btn-secondary:active{
+    background:#00b4db;
+    transition: background 0.2s;
+}
+
+.btn-tetiary:active{
+    background:#00b4db;
+    transition: background 0.2s;
+}
+/* Media Query */
+/* Desktop */
+@media (min-width: 1024px) {
+  /* desktop styles */
+  .sub{
+      display:flex;
+  }
+  
+  .sign{
+      display:flex;
+      justify-content:left;
+      align-items:left;
+  }
+  
+  .find{
+      text-align:start;
+      display:flex;
+      flex-direction: column;
+  }
+  .foot{
+      justify-content:flex-start;
+  }
+  .hero-container{
+    margin:20px;
+    display:flex;
+    justify-content:left;
+    align-items:center;
+}
+
+.pro{
+    display:flex;
+    justify-content:flex-start;
+}
+}
