@@ -123,10 +123,11 @@ img{
     border-radius:10px;
 }
 
-.pro,.good{
-    color:#ffffff;
+.pro,{
+    color:#ffffff; 
+}
+.good{
     text-align:center;
-    
 }
 
 .hero{
